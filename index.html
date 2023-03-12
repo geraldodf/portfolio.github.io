@@ -1,185 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="assets/styles/styles.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <link rel="stylesheet" href="assets/styles/styles.css" />
 
-    <title>Portfolio</title>
-  </head>
-  <body>
-    <nav
-      class="navbar navbar-expand-lg fixed-top py-3"
-      style="background-color: #00000011"
-    >
+  <title>Geraldo Daros</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top py-3 border-bottom"  style="border-bottom-color: #029ca7 !important;">
       <div class="container">
-        <a
-          class="navbar-brand fs-3 animate__animated animate__fadeInDown"
-          href="#"
-          >Meu nome</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <a class="navbar-brand fs-3 text-light" href="#">Geraldo Daros</a>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ms-auto list-group">
+          <ul class="navbar-nav ms-auto list-group ">
             <li class="nav-item me-5">
-              <a class="nav-link fs-5" href="#">Inicio</a>
+              <a class="nav-link fs-5 text-light" href="#">Início</a>
+            </li>
+            <li class="nav-item me-5 fs-5 ">
+              <a class="nav-link text-light" href="#">Sobre</a>
             </li>
             <li class="nav-item me-5 fs-5">
-              <a class="nav-link" href="#">Sobre</a>
+              <a class="nav-link text-light" href="#">Projetos</a>
             </li>
             <li class="nav-item me-5 fs-5">
-              <a class="nav-link" href="#">Projetos</a>
-            </li>
-            <li class="nav-item me-5 fs-5">
-              <a class="nav-link" href="#">Contato</a>
+              <a class="nav-link text-light" href="#">Contato</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
-    <header>
-      <div
-        id="carouselExampleCaptions"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
+  </header>
+  <section class="bg-dark text-white py-5 mt-5 ">
+    <div class="container border rounded"  style="border-color: #029ca7 !important;">
+      <div class="row align-items-center rounded">
+        <div class="col-md-4 p-3 ">
+          <img src="" alt="Imagem do Portfolio">
         </div>
-        <div class="carousel-inner">
-          <div
-            class="carousel-item active"
-            style="background-image: url('./assets/images/.png')"
-          >
-            <div class="carousel-caption">
-              <h5>Primeiro Slide</h5>
-              <p>Estou pensando o que vou botar aqui</p>
-            </div>
-          </div>
-          <div
-            class="carousel-item"
-            style="background-image: url('./assets/images/.png')"
-          >
-            <div class="carousel-caption">
-              <h5>Segundo slide</h5>
-              <p>Estou pensando o que vou botar aqui</p>
-            </div>
-          </div>
-          <div
-            class="carousel-item"
-            style="background-image: url('./assets/images/.png')"
-          >
-            <div class="carousel-caption">
-              <h5>Terceiro Slide</h5>
-              <p>Estou pensando o que vou botar aqui também</p>
-            </div>
-          </div>
+        <div class="col-md-8 p-4 rounded">
+          <h2 class="mb-4">Sobre mim</h2>
+          <p>Sou desenvolvedor Java focado no desenvolvimento Web. Sou focado nas tecnologias que fazem parte desse ecossistema.</p>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </button>
       </div>
-    </header>
-    <main>
-      <div class="container">
-        <section class="border border-left-0 border-right-0">
-          <div class="row align-items-center">
-            <div class="col-md-4">
-              <img
-                src="https://via.placeholder.com/150"
-                alt="Foto da pessoa"
-                class="img-fluid rounded-circle"
-              />
-            </div>
-            <div class="col-md-8">
-              <p>Minha introducao</p>
-            </div>
-          </div>
-        </section>
+    </div>
+  </section>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/your-font-awesome-key.js" crossorigin="anonymous"></script>
+</body>
 
-        <section class="border border-left-0 border-right-0">
-          <div class="row">
-            <div class="col-md-12">
-              <ul class="list-inline">
-                <li class="list-inline-item">
-                  <a href="https://github.com/" target="_blank">
-                    <i class="fab fa-github fa-3x"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://www.linkedin.com/" target="_blank">
-                    <i class="fab fa-linkedin fa-3x"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
-      </div>
-    </main>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/your-font-awesome-key.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
 </html>
