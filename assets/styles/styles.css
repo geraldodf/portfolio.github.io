@@ -32,3 +32,27 @@
 
 /* Animação de baixo da navegação */
 
+/* Margem custom */
+
+.custom-margin-top {
+ margin-top: 100px !important;
+}
+
+/* Margem custom */
+
+/* Animação de letra descendo */
+
+.anim-slideDown {
+  opacity: 0;
+  transform: translateY(-50px);
+  animation: slideDown 1s ease-out forwards;
+}
+
+@keyframes slideDown {
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* Animação de letra descendo */
